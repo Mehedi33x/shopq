@@ -9,3 +9,4 @@ Route::get('/admin-panel/dashboard',[DashboardController::class,'dashboard'])->n
 Route::get('/admin-panel/category-list',[CategoryController::class,'category_list'])->name('category');
 Route::get('/category/add-category',[CategoryController::class,'add_category'])->name('add_category');
 Route::post('/category/add-category',[CategoryController::class,'store_category'])->name('store_category');
+// Route::get("/new")
